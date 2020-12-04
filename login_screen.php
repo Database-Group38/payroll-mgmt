@@ -7,6 +7,7 @@
 </head>
 
 <body>
+
 <div class="container">
     <div class="login-box">
     <div class="row">
@@ -14,41 +15,19 @@
         <h2> Login Here </h2>
         <form action="validation.php" method="post">
             <div class="form-group">
-                <b><label>User-Name</label></b>
-                <input type="text" name="username" class="form-control" required placeholder="Enter Your Unique Username">
+                <label>Name</label>
+                <input type="text" name="name" class="form-control" required placeholder="Enter Your Full Name">
             </div>
 
             <div class="form-group">
                 <label>Password</label>
                 <input type="password" name="password" class="form-control" requried placeholder="Enter Password">
             </div>
-
-            <div class="form-group">
-                <label>Your Post</label>
-                <select name="field">
-                    <option value="admin">Admin</option>
-                    <option value="accountant">Accountant</option>
-                    <option value="employee">Employee</option>
-                </select>
-            </div>
-            
             <button type="submit" class="btn btn-primary"> Login </button>
-
-            <br>
-            <br>
-            <label>New User? Create an Account!</label>
-            <br>
-            <a href="signup_screen.php"><buttom class="btn btn-primary">Create a New Account</buttom></a>
         </form>
-
- 
-
 </div>
 </div>
 </div>
 </div>
-
-
-
 </body>
 </html>
