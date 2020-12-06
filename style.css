@@ -1,0 +1,21 @@
+
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("cover1.jpg");
+    background-position: top;
+    background-size: cover;
+}
+
+
+
+
+
